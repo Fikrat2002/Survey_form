@@ -1,21 +1,21 @@
 h1 {
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
-    color: darkslategrey;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
     margin: 1em auto;
 }
 p {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: darkslategray;
+    color: black;
     margin: 1em auto;
 }
 body {
     width: 200;
     height: 20;
     font-size: 16;
-    font-family:'Times New Roman', Times, serif;
- background-image: linear-gradient(115deg, rgba(252, 252, 252, 0.918), rgba(71, 130, 172, 0.616)), url(https://miro.medium.com/v2/resize:fit:1169/1*A94QQoJ05Rg8q3JJo2K2Fg.png);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ background-image: linear-gradient(115deg, rgba(252, 252, 252, 0.918), rgba(177, 203, 222, 0.961)), url(https://miro.medium.com/v2/resize:fit:1169/1*A94QQoJ05Rg8q3JJo2K2Fg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -27,7 +27,7 @@ form {
     margin: 0 auto;
 }
 fieldset {
-    border-bottom: 1px solid darkgreen;
+    border-bottom: 1px solid black;
 }
 input[type="submit"] {
     display: block;
