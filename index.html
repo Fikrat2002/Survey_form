@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<h1 id="title">Summer Classes Evaluation</h1>
+<p id="description">This form is for the evaluation of summer classes</p>
+<form id="survey-form">
+  </div>
+  <fieldset>
+    <label id="name-label">Name(required): <br><input id="name" type="text" required placeholder="Enter your name" /></label><br>
+    <label id="email-label">Email:<br><input id="email" type="email" required placeholder="Enter your university email" /></label><br>
+    <label id="number-label">Classes: <br><input id="number" type="number" required min="4" max="6" placeholder="overall" /></label><br>
+  </fieldset>
+  <fieldset>
+    <legend>How many credits you have completed?</legend>
+    <select id="dropdown">
+      <option value="">(select 1)</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+    </select>
+  </fieldset>
+  <fieldset>
+    <legend>Course type(required)</legend>
+    <label for="ITC 109"><input id="ITC 109" type="checkbox" name="course-type" value="ITC 109" />ITC 109</label><br>
+    <label for="ITC 110"><input id="ITC 110" type="checkbox" name="course-type" value="ITC 110" checked />ITC 110</label><br>
+    <label for="ITC 120"><input id="ITC 120" type="checkbox" name="course-type" value="ITC 120" />ITC 120</label><br>
+    <label for="ITC 130"><input id="ITC 130" type="checkbox" name="course-type" value="ITC 130" />ITC 130</label><br>
+    <label for="ITC 140"><input id="ITC 140" type="checkbox" name="course-type" value="ITC 140" />ITC 140</label><br>
+    <label for="ITC 200"><input id="ITC 200" type="checkbox" name="course-type" value="ITC 200" />ITC 200</label><br>
+  </fieldset>
+  <fieldset>
+    <legend>How do the courses helped you improve(select only option)</legend>
+    <label for="I have had an absolute improvement"><input id="I have had an absolute improvement" type="radio" name="improvement" value="I have had an absolute improvement" />I have had an absolute improvement</label><br>
+    <label for="I have had a moderate improvement"><input id="I have had a moderate improvement" type="radio" name="improvement" value="I have had a moderate improvement" />I have had a moderate improvement</label><br>
+    <label for="I had no improvement"><input id="I had no improvement" type="radio" name="improvement" value="I had no improvement" />I had no improvement</label>
+  </fieldset>
+  <fieldset>
+    <legend>Any comments and suggestions?</legend>
+    <label for="comment"><br><textarea id="comment" rows="4" cols="40" placeholder="You are welcome to share your concerns and feedbacks..."></textarea>
+    </label>
+  </fieldset>
+  <fieldset>
+    <label for="terms">
+      <input id="terms" type="radio" name="terms" value="agree" />I agree with terms and conditions
+    </label><br>
+      <input id="terms" type="radio" name="terms" value="agree" />I disagree with terms and conditions
+    </label>
+    </fieldset>
+    <fieldset>
+    <button type="submit" id="submit">Submit</button>
+  </fieldset>
+</form>
+</body>
+</html>
